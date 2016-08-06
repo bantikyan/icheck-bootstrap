@@ -18,13 +18,9 @@
   ],
   "ignore": [
     "/.*",
-    "_config.yml",
-    "CNAME",
-    "composer.json",
-    "CONTRIBUTING.md",
-    "docs",
-    "js/tests",
-    "test-infra"
+    "README.md",
+    "bower.json",
+    ""
   ],
   "license": "MIT",
   "homepage": "",
