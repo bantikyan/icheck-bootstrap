@@ -1,0 +1,35 @@
+{
+  "name": "icheck-bootstrap",
+  "description": "Pure css checkboxes and radio buttons for Twitter Bootstrap.",
+  "main": "icheck-bootstrap.css",
+  "keywords": [
+    "checkbox",
+    "radio",
+    "bootstrap",
+    "css",
+    "pure",
+    "css"
+  ],
+  "authors": [
+    {
+      "name": "Hovhannes Bantikyan",
+      "email": "bantikyan@gmail.com"
+    }
+  ],
+  "ignore": [
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bantikyan/icheck-bootstrap.git"
+  }
+}
