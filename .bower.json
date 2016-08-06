@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/bantikyan/icheck-bootstrap.git"
-  }
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  },
 }
