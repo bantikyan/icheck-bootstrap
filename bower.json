@@ -19,8 +19,7 @@
   "ignore": [
     "/.*",
     "README.md",
-    "bower.json",
-    ""
+    "bower.json"
   ],
   "license": "MIT",
   "homepage": "",
