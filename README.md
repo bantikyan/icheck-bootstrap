@@ -7,5 +7,9 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 
 ## Table of contents
 
-* Start a line with a star
-* Profit!
+* Quick start
+* Copyright and license
+
+## Copyright and license
+
+Copyright 2016 Hovhannes Bantikyan. Released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE).
