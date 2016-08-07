@@ -12,6 +12,12 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 
 ## Getting started
 
+Several quick start options are available:
+
+* [Download the latest release.](https://github.com//bantikyan/icheck-bootstrap/archive/master.zip)
+* Install with [Bower](https://bower.io): bower install icheck-bootstrap
+* Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): Install-Package icheck-bootstrap
+
 ## License
 
 icheck-bootstrap released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE). Feel free to use it in personal and commercial projects.
