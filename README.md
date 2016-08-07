@@ -7,11 +7,11 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 
 ## Table of contents
 
-* <a href="#user-content-quick-start">Quick start</a>
-* <a href="#user-content-copyright-and-license">Copyright and license</a>
+* <a href="#user-content-getting-started">Getting started</a>
+* <a href="#user-content-license">License</a>
 
-## Quick start
+## Getting started
 
-## Copyright and license
+## License
 
-Copyright 2016 Hovhannes Bantikyan. Released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE).
+icheck-bootstrap released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE). Feel free to use it in personal and commercial projects.
