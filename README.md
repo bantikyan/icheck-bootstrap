@@ -8,7 +8,7 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 ## Table of contents
 
 * Quick start
-* Copyright and license
+* <a href="#user-content-copyright-and-license">Copyright and license</a>
 
 ## Copyright and license
 
