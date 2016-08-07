@@ -5,7 +5,7 @@
 
 Did you had a problem customizing html checkboxes and radio buttons? icheck-bootstrap is pure css solution for diplaying twitter bootstrap style checkboxes and radio buttons.
 
-### Table of contents
+## Table of contents
 
 * Start a line with a star
 * Profit!
