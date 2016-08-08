@@ -52,7 +52,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 
 ```
 <div class="checkbox icheck-primary">
-    <input type="checkbox" id="someCheckboxId" />
+    @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
     <label for="someCheckboxId">Clieck to check</label>
 </div>
 ```
@@ -61,11 +61,11 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 
 ```
 <div class="radio icheck-primary">
-    <input type="radio" id="someRadioId1" name="someGroupName" />
+    @Html.RadioButtonFor(m => m.SomeProperty, SomeValue1, new { id = "someRadioId1" }) 
     <label for="someRadioId1">Option 1</label>
 </div>
 <div class="radio icheck-primary">
-    <input type="radio" id="someRadioId2" name="someGroupName" />
+    @Html.RadioButtonFor(m => m.SomeProperty, SomeValue2, new { id = "someRadioId2" })
     <label for="someRadioId2">Option 2</label>
 </div>
 ```
