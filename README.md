@@ -23,7 +23,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 
 ## HTML syntax
 
-* checkbox example
+#### checkbox example
 
 ```
 <div class="checkbox icheck-primary">
@@ -32,7 +32,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 </div>
 ```
 
-* radio buttons example
+#### radio buttons example
 
 ```
 <div class="radio icheck-primary">
