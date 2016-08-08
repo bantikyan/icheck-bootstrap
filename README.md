@@ -83,7 +83,7 @@ You can use following classes for Twitter Bootstrap color scheme:
 <code>.icheck-warning</code><br/>
 <code>.icheck-danger</code>
 
-<b>Flat UI Colors:</b> Also use can use one of the really nice colors from [flatuicolors.com](https://flatuicolors.com/)
+<b>Flat UI Colors:</b> Also you can use one of the really nice colors from [flatuicolors.com](https://flatuicolors.com/)
 
 <code>.icheck-turquoise</code><br/>
 <code>.icheck-emerland</code><br/>
