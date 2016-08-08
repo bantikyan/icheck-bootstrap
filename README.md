@@ -1,7 +1,7 @@
 # icheck-bootstrap (Coming Soon) 
 
-<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v1.0.6-blue.svg" alt="Bower version"></a>
-<a href="https://www.nuget.org/packages/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/nuget-v1.0.6-blue.svg" alt="Bower version"></a>
+<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v1.0.7-blue.svg" alt="Bower version"></a>
+<a href="https://www.nuget.org/packages/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/nuget-v1.0.7-blue.svg" alt="Bower version"></a>
 
 Did you had a problem customizing html checkboxes and radio buttons? icheck-bootstrap is pure css solution for displaying twitter bootstrap style checkboxes and radio buttons.
 
@@ -69,6 +69,18 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
     <label for="someRadioId2">Option 2</label>
 </div>
 ```
+
+## Color Schemes
+
+As you can see in previous examples, icheck-primary class used for styling.
+You can use following classes for Twitter Bootstrap color scheme:
+
+<code>.icheck-default</code>
+<code>.icheck-primary</code>
+<code>.icheck-success</code>
+<code>.icheck-info</code>
+<code>.icheck-warning</code>
+<code>.icheck-danger</code>
 
 ## License
 
