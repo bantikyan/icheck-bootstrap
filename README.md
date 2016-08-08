@@ -8,6 +8,7 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 ## Table of contents
 
 * <a href="#user-content-getting-started">Getting started</a>
+* <a href="#user-content-html-syntax">HTML syntax</a>
 * <a href="#user-content-license">License</a>
 
 ## Getting started
@@ -19,6 +20,30 @@ Several quick start options are available:
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
 
 icheck-bootstrap based on twitter bootstrap styles, make sure you link the [bootstrap](https://github.com/twbs/bootstrap) stylesheet properly in your header.
+
+## HTML syntax
+
+* checkbox example
+
+```
+<div class="checkbox icheck-primary">
+    <input type="checkbox" id="someCheckboxId" />
+    <label for="someCheckboxId">Clieck to check</label>
+</div>
+```
+
+* radio buttons example
+
+```
+<div class="radio icheck-primary">
+    <input type="radio" id="someRadioId1" name="someGroupName" />
+    <label for="someRadioId1">Option 1</label>
+</div>
+<div class="radio icheck-primary">
+    <input type="radio" id="someRadioId2" name="someGroupName" />
+    <label for="someRadioId2">Option 2</label>
+</div>
+```
 
 ## License
 
