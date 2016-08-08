@@ -10,6 +10,7 @@ Did you had a problem customizing html checkboxes and radio buttons? icheck-boot
 * <a href="#user-content-getting-started">Getting started</a>
 * <a href="#user-content-html-syntax">HTML syntax</a>
 * <a href="#user-content-aspnet-mvc-syntax">ASP.NET MVC syntax</a>
+* <a href="#user-content-color-schemes">Color schemes</a>
 * <a href="#user-content-license">License</a>
 
 ## Getting started
@@ -70,7 +71,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 </div>
 ```
 
-## Color Schemes
+## Color schemes
 
 <b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
