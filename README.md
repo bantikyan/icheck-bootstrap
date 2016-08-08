@@ -75,11 +75,11 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
 
-<code>.icheck-default</code>
-<code>.icheck-primary</code>
-<code>.icheck-success</code>
-<code>.icheck-info</code>
-<code>.icheck-warning</code>
+<code>.icheck-default</code><br/>
+<code>.icheck-primary</code><br/>
+<code>.icheck-success</code><br/>
+<code>.icheck-info</code><br/>
+<code>.icheck-warning</code><br/>
 <code>.icheck-danger</code>
 
 ## License
