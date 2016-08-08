@@ -72,7 +72,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 
 ## Color Schemes
 
-As you can see in previous examples, icheck-primary class used for styling.
+<b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
 
 <code>.icheck-default</code><br/>
@@ -81,6 +81,29 @@ You can use following classes for Twitter Bootstrap color scheme:
 <code>.icheck-info</code><br/>
 <code>.icheck-warning</code><br/>
 <code>.icheck-danger</code>
+
+<b>Flat UI Colors:</b> Also use can use one of the really nice colors from [flatuicolors.com](https://flatuicolors.com/)
+
+<code>.icheck-turquoise</code><br/>
+<code>.icheck-emerland</code><br/>
+<code>.icheck-peterriver</code><br/>
+<code>.icheck-amethyst</code><br/>
+<code>.icheck-wetasphalt</code><br/>
+<code>.icheck-greensea</code><br/>
+<code>.icheck-nephritis</code><br/>
+<code>.icheck-belizehole</code><br/>
+<code>.icheck-wisteria</code><br/>
+<code>.icheck-midnightblue</code><br/>
+<code>.icheck-sunflower</code><br/>
+<code>.icheck-carrot</code><br/>
+<code>.icheck-alizarin</code><br/>
+<code>.icheck-clouds</code><br/>
+<code>.icheck-concrete</code><br/>
+<code>.icheck-orange</code><br/>
+<code>.icheck-pumpkin</code><br/>
+<code>.icheck-pomegranate</code><br/>
+<code>.icheck-silver</code><br/>
+<code>.icheck-asbestos</code><br/>
 
 ## License
 
