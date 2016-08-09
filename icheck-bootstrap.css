@@ -1,5 +1,5 @@
 ﻿/*!
- * icheck-bootstrap v1.0.6 (https://github.com/bantikyan/icheck-bootstrap)
+ * icheck-bootstrap v1.0.7 (https://github.com/bantikyan/icheck-bootstrap)
  * Copyright 2016 Hovhannes Bantikyan.
  * Licensed under MIT (https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE)
  */
@@ -113,78 +113,6 @@
         opacity: 0;
         cursor: default;
     }
-
-/* not checked style*/
-.radio-square-blue > input[type="radio"]:first-child:not(:checked) + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:not(:checked) + label::before,
-.radio-square-blue > input[type="radio"]:first-child:not(:checked) + input[type="hidden"] + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:not(:checked) + input[type="hidden"] + label::before {
-}
-
-/* not checked hover style*/
-.radio-square-blue > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.radio-square-blue > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
-    border-color: #1d6fa5;
-}
-
-/*checked style*/
-.radio-square-blue > input[type="radio"]:first-child:checked + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:checked + label::before,
-.radio-square-blue > input[type="radio"]:first-child:checked + input[type="hidden"] + label::before,
-.checkbox-square-blue > input[type="checkbox"]:first-child:checked + input[type="hidden"] + label::before {
-    background-color: #217dbb;
-    border-color: #1d6fa5;
-}
-
-/* not checked style*/
-.radio-square-green > input[type="radio"]:first-child:not(:checked) + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:not(:checked) + label::before,
-.radio-square-green > input[type="radio"]:first-child:not(:checked) + input[type="hidden"] + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:not(:checked) + input[type="hidden"] + label::before {
-}
-
-/* not checked hover style*/
-.radio-square-green > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.radio-square-green > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
-    border-color: #1ab394;
-}
-
-/*checked style*/
-.radio-square-green > input[type="radio"]:first-child:checked + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:checked + label::before,
-.radio-square-green > input[type="radio"]:first-child:checked + input[type="hidden"] + label::before,
-.checkbox-square-green > input[type="checkbox"]:first-child:checked + input[type="hidden"] + label::before {
-    background-color: #1ab394;
-    border-color: #1ab394;
-}
-
-/* not checked style*/
-.radio-square-grey > input[type="radio"]:first-child:not(:checked) + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:not(:checked) + label::before,
-.radio-square-grey > input[type="radio"]:first-child:not(:checked) + input[type="hidden"] + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:not(:checked) + input[type="hidden"] + label::before {
-}
-
-/* not checked hover style*/
-.radio-square-grey > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + label::before,
-.radio-square-grey > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
-    border-color: #aaa;
-}
-
-/*checked style*/
-.radio-square-grey > input[type="radio"]:first-child:checked + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:checked + label::before,
-.radio-square-grey > input[type="radio"]:first-child:checked + input[type="hidden"] + label::before,
-.checkbox-square-grey > input[type="checkbox"]:first-child:checked + input[type="hidden"] + label::before {
-    background-color: #aaa;
-    border-color: #aaa;
-}
 
 /* not checked hover style*/
 .icheck-default > input[type="radio"]:first-child:not(:checked):not(:disabled):hover + label::before,
