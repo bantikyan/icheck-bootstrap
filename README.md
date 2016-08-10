@@ -30,7 +30,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 ```
 <div class="checkbox icheck-primary">
     <input type="checkbox" id="someCheckboxId" />
-    <label for="someCheckboxId">Clieck to check</label>
+    <label for="someCheckboxId">Click to check</label>
 </div>
 ```
 
@@ -54,7 +54,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 ```
 <div class="checkbox icheck-primary">
     @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
-    <label for="someCheckboxId">Clieck to check</label>
+    <label for="someCheckboxId">Click to check</label>
 </div>
 ```
 
