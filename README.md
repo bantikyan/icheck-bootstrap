@@ -20,6 +20,7 @@ Several quick start options are available:
 
 * [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/master.zip)
 * Install with [Bower](https://bower.io): <code>bower install icheck-bootstrap</code>
+* Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
 
 icheck-bootstrap based on twitter bootstrap styles, make sure you link the [bootstrap](https://github.com/twbs/bootstrap) stylesheet properly in your header.
