@@ -76,7 +76,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 ## Color schemes
 
 * [Demo on codepen](http://codepen.io/bantikyan/pen/KgZwkm)
-* [Demo on jsfiddle](https://jsfiddle.net/bantikyan/jcfekw2j)
+* [Demo on jsfiddle](https://jsfiddle.net/bantikyan/jcfekw2j/2)
 
 <b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
