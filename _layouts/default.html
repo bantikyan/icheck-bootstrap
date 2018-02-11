@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/bantikyan/icheck-bootstrap/2.0.0/icheck-bootstrap.min.css" />
 </head>
 <body>
@@ -23,26 +24,94 @@
         {% endif %}
     </section>
     <section class="main-content">
-        <h1 id="icheck-bootstrap">Twitter Bootstrap colors</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-2">
-                    <div class="checkbox icheck-primary">
-                        <input type="checkbox" checked id="primary" />
-                        <label for="primary">primary</label>
-                    </div>
-                    <div class="radio icheck-primary">
-                        <input type="radio" id="primary1" name="primary" />
-                        <label for="primary1">primary 1</label>
-                    </div>
-                    <div class="radio icheck-primary">
-                        <input type="radio" checked id="primary2" name="primary" />
-                        <label for="primary2">primary 2</label>
-                    </div>
+        <h2 id="icheck-bootstrap">Twitter Bootstrap colors</h2>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-primary">
+                    <input type="checkbox" checked id="primary" />
+                    <label for="primary">primary</label>
+                </div>
+                <div class="radio icheck-primary">
+                    <input type="radio" id="primary1" name="primary" />
+                    <label for="primary1">primary 1</label>
+                </div>
+                <div class="radio icheck-primary">
+                    <input type="radio" checked id="primary2" name="primary" />
+                    <label for="primary2">primary 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-default">
+                    <input type="checkbox" checked id="default" />
+                    <label for="default">default</label>
+                </div>
+                <div class="radio icheck-default">
+                    <input type="radio" id="default1" name="default" />
+                    <label for="default1">default 1</label>
+                </div>
+                <div class="radio icheck-default">
+                    <input type="radio" checked id="default2" name="default" />
+                    <label for="default2">default 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-success">
+                    <input type="checkbox" checked id="success" />
+                    <label for="success">success</label>
+                </div>
+                <div class="radio icheck-success">
+                    <input type="radio" id="success1" name="success" />
+                    <label for="success1">success 1</label>
+                </div>
+                <div class="radio icheck-success">
+                    <input type="radio" checked id="success2" name="success" />
+                    <label for="success2">success 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-info">
+                    <input type="checkbox" checked id="info" />
+                    <label for="info">info</label>
+                </div>
+                <div class="radio icheck-info">
+                    <input type="radio" id="info1" name="info" />
+                    <label for="info1">info 1</label>
+                </div>
+                <div class="radio icheck-info">
+                    <input type="radio" checked id="info2" name="info" />
+                    <label for="info2">info 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-warning">
+                    <input type="checkbox" checked id="warning" />
+                    <label for="warning">warning</label>
+                </div>
+                <div class="radio icheck-warning">
+                    <input type="radio" id="warning1" name="warning" />
+                    <label for="warning1">warning 1</label>
+                </div>
+                <div class="radio icheck-warning">
+                    <input type="radio" checked id="warning2" name="warning" />
+                    <label for="warning2">warning 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="checkbox icheck-danger">
+                    <input type="checkbox" checked id="danger" />
+                    <label for="danger">danger</label>
+                </div>
+                <div class="radio icheck-danger">
+                    <input type="radio" id="danger1" name="danger" />
+                    <label for="danger1">danger 1</label>
+                </div>
+                <div class="radio icheck-danger">
+                    <input type="radio" checked id="danger2" name="danger" />
+                    <label for="danger2">danger 2</label>
                 </div>
             </div>
         </div>
-        <h1 id="icheck-bootstrap">Flat UI colors</h1>
+        <h2 id="icheck-bootstrap">Flat UI colors</h2>
         {{ content }}
         <footer class="site-footer">
             {% if site.github.is_project_page %}
