@@ -33,17 +33,26 @@ input[type="radio"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
-}
+
 input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
 }
 
 .row {
