@@ -24,6 +24,7 @@
     "_config.yml",
     "package.json",
     "package-lock.json",
+    "icheck-bootstrap.nuspec",
     "README.md"
   ],
   "license": "MIT",
