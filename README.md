@@ -75,6 +75,7 @@ icheck-bootstrap based on twitter bootstrap styles, make sure you link the [boot
 
 ## Color schemes
 
+* [Demo](https://bantikyan.github.io/icheck-bootstrap/)
 * [Demo on codepen](http://codepen.io/bantikyan/pen/KgZwkm)
 * [Demo on jsfiddle](https://jsfiddle.net/bantikyan/jcfekw2j/2)
 
