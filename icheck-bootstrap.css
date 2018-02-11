@@ -1,8 +1,14 @@
 ﻿/*!
- * icheck-bootstrap v1.0.7 (https://github.com/bantikyan/icheck-bootstrap)
- * Copyright 2016 Hovhannes Bantikyan.
+ * icheck-bootstrap v2.0.0 (https://github.com/bantikyan/icheck-bootstrap)
+ * Copyright 2018 Hovhannes Bantikyan.
  * Licensed under MIT (https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE)
  */
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('fonts/glyphicons-halflings-regular.woff') format('woff'),url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 
 .radio + .radio, .checkbox + .checkbox {
     margin-top: 6px;
