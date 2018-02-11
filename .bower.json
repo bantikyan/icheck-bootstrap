@@ -18,6 +18,9 @@
   ],
   "ignore": [
     "**/.*",
+    "_layouts",
+    "assets",
+    "_config.yml",
     "README.md"
   ],
   "license": "MIT",
