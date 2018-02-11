@@ -22,6 +22,8 @@
     "_layouts",
     "assets",
     "_config.yml",
+    "package.json",
+    "package-lock.json",
     "README.md"
   ],
   "license": "MIT",
