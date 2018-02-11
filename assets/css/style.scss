@@ -696,6 +696,15 @@ label {
   }
 }
 
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
 label{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
