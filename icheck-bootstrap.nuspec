@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>icheck-bootstrap</id>
+    <version>2.0.4</version>
+    <title>icheck-bootstrap</title>
+    <authors>Hovhannes Bantikyan</authors>
+    <owners>bantikyan</owners>
+    <licenseUrl>https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bantikyan/icheck-bootstrap</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Pure css checkboxes and radio buttons for Twitter Bootstrap.</description>
+    <releaseNotes>Bootstrap 4 support</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>checkbox radio bootstrap pure css</tags>
+  </metadata>
+  <files>
+    <file src="icheck-bootstrap.css" target="Content\Content" />
+	<file src="icheck-bootstrap.min.css" target="Content\Content" />
+	<file src="fonts\*.*" target="Content\fonts" />
+  </files>
+</package>
