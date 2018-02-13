@@ -3,6 +3,7 @@
 <a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v2.0.4-blue.svg" alt="bower version"></a>
 <a href="https://www.npmjs.com/package/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/npm-v2.0.4-blue.svg" alt="npm version"></a>
 <a href="https://www.nuget.org/packages/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/nuget-v2.0.4-blue.svg" alt="nuget version"></a>
+[![](https://data.jsdelivr.com/v1/package/npm/icheck-bootstrap/badge)](https://www.jsdelivr.com/package/npm/icheck-bootstrap)
 
 Did you had a problem customizing html checkboxes and radio buttons? icheck-bootstrap is pure css solution for displaying twitter bootstrap style checkboxes and radio buttons.
 
