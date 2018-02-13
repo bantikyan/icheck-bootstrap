@@ -23,7 +23,7 @@ Several quick start options are available:
 * Install with [Bower](https://bower.io): <code>bower install icheck-bootstrap</code>
 * Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
-* Use CDN [JSDELIVR](https://www.jsdelivr.com/package/npm/icheck-bootstrap): 
+* Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-bootstrap): 
 
 icheck-bootstrap based on twitter bootstrap styles, make sure you link the [bootstrap](https://github.com/twbs/bootstrap) stylesheet properly in your header.
 
