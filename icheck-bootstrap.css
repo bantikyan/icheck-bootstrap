@@ -33,6 +33,7 @@
     min-height: 22px;
     line-height: 22px;
     display: inline-block;
+    position: relative;
 }
 
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
