@@ -1,10 +1,10 @@
 /*!
- * icheck-bootstrap v3.0.0 (https://github.com/bantikyan/icheck-bootstrap)
+ * icheck-bootstrap v3.0.1 (https://github.com/bantikyan/icheck-bootstrap)
  * Copyright 2018 Hovhannes Bantikyan.
  * Licensed under MIT (https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE)
  */
 
-[class*="icheck-"] {
+ [class*="icheck-"] {
     min-height: 22px;
     margin-top: 6px !important;
     margin-bottom: 6px !important;
@@ -27,6 +27,8 @@
     display: inline-block;
     position: relative;
     vertical-align: top;
+    margin-bottom: 0;
+    font-weight: normal;
     cursor: pointer;
 }
 

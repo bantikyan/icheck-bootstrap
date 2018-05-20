@@ -1,8 +1,8 @@
 # icheck-bootstrap
 
-<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v3.0.0-blue.svg" alt="bower version"></a>
-<a href="https://www.npmjs.com/package/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/npm-v3.0.0-blue.svg" alt="npm version"></a>
-<a href="https://www.nuget.org/packages/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/nuget-v3.0.0-blue.svg" alt="nuget version"></a>
+<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v3.0.1-blue.svg" alt="bower version"></a>
+<a href="https://www.npmjs.com/package/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/npm-v3.0.1-blue.svg" alt="npm version"></a>
+<a href="https://www.nuget.org/packages/icheck-bootstrap" target="_blank"><img src="https://img.shields.io/badge/nuget-v3.0.1-blue.svg" alt="nuget version"></a>
 [![](https://data.jsdelivr.com/v1/package/npm/icheck-bootstrap/badge)](https://www.jsdelivr.com/package/npm/icheck-bootstrap)
 
 Did you had a problem customizing html checkboxes and radio buttons? icheck-bootstrap is pure css solution for displaying twitter bootstrap style checkboxes and radio buttons. Try [Demo](https://bantikyan.github.io/icheck-bootstrap/).
@@ -21,7 +21,7 @@ You may also like to try [icheck-material](https://github.com/bantikyan/icheck-m
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/3.0.0.zip)
+* [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/3.0.1.zip)
 * Install with [Bower](https://bower.io): <code>bower install icheck-bootstrap</code>
 * Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>

@@ -1,6 +1,6 @@
 {
   "name": "icheck-bootstrap",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Pure css checkboxes and radio buttons for Twitter Bootstrap.",
   "main": "icheck-bootstrap.css",
   "files": [

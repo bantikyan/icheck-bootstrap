@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>icheck-bootstrap</id>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <title>icheck-bootstrap</title>
     <authors>Hovhannes Bantikyan</authors>
     <owners>bantikyan</owners>
@@ -12,7 +12,7 @@
     <description>Pure css checkboxes and radio buttons for Twitter Bootstrap.</description>
     <releaseNotes>
       * Removed dependencies from icon-fonts
-      * Reduced file size
+    * Reduced file size
     </releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>checkbox radio bootstrap pure css</tags>
