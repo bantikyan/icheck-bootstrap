@@ -14,7 +14,7 @@ You may also like to try [icheck-material](https://github.com/bantikyan/icheck-m
 * <a href="#user-content-getting-started">Getting started</a>
 * <a href="#user-content-html-syntax">HTML syntax</a>
 * <a href="#user-content-aspnet-mvc-syntax">ASP.NET MVC syntax</a>
-* <a href="#user-content-color-schemes">Demo & Color schemes</a>
+* <a href="#user-content-color-schemes">Color schemes</a>
 * <a href="#user-content-license">License</a>
 
 ## Getting started
