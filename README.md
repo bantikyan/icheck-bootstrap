@@ -25,8 +25,6 @@ Several quick start options are available:
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
 * Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-bootstrap)
 
-icheck-bootstrap based on twitter bootstrap styles, make sure you link the [bootstrap](https://github.com/twbs/bootstrap) stylesheet properly in your header.
-
 ## HTML syntax
 
 #### checkbox example
