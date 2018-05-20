@@ -66,6 +66,21 @@ To have checkboxes or radio buttons inline use .icheck-inline class
 </div>
 ```
 
+#### disabled
+
+Use disabled attribute on your input (checkbox or radio) to have disabled style.
+
+#### no label
+
+To have components without label, you still have to have label control with empty text.
+
+```
+<div class="icheck-primary">
+    <input type="checkbox" id="someCheckboxId" />
+    <label for="someCheckboxId"></label>
+</div>
+```
+
 ## ASP.NET MVC syntax
 
 #### checkbox example
