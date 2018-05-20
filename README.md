@@ -21,7 +21,7 @@ You may also like to try [icheck-material](https://github.com/bantikyan/icheck-m
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/2.0.4.zip)
+* [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/3.0.0.zip)
 * Install with [Bower](https://bower.io): <code>bower install icheck-bootstrap</code>
 * Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
