@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>icheck-bootstrap</id>
-    <version>2.0.4</version>
+    <version>3.0.0</version>
     <title>icheck-bootstrap</title>
     <authors>Hovhannes Bantikyan</authors>
     <owners>bantikyan</owners>
@@ -16,7 +16,6 @@
   </metadata>
   <files>
     <file src="icheck-bootstrap.css" target="Content\Content" />
-	<file src="icheck-bootstrap.min.css" target="Content\Content" />
-	<file src="fonts\*.*" target="Content\fonts" />
+    <file src="icheck-bootstrap.min.css" target="Content\Content" />
   </files>
 </package>
