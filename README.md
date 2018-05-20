@@ -77,7 +77,7 @@ Several quick start options are available:
 
 ## Color schemes
 
-* Try [Demo](https://bantikyan.github.io/icheck-bootstrap/)
+Try [Demo](https://bantikyan.github.io/icheck-bootstrap/)
 
 <b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
