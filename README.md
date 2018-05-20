@@ -51,6 +51,21 @@ Several quick start options are available:
 </div>
 ```
 
+#### inline styling
+
+To have checkboxes or radio buttons inline use .icheck-inline class
+
+```
+<div class="icheck-primary icheck-inline">
+    <input type="checkbox" id="chb1" />
+    <label for="chb1">Label 1</label>
+</div>
+<div class="icheck-primary icheck-inline">
+    <input type="checkbox" id="chb2" />
+    <label for="chb2">Label 2</label>
+</div>
+```
+
 ## ASP.NET MVC syntax
 
 #### checkbox example
