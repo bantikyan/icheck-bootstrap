@@ -10,7 +10,10 @@
     <projectUrl>https://github.com/bantikyan/icheck-bootstrap</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Pure css checkboxes and radio buttons for Twitter Bootstrap.</description>
-    <releaseNotes>Bootstrap 4 support</releaseNotes>
+    <releaseNotes>
+      * Removed dependencies from icon-fonts
+      * Reduced file size
+    </releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>checkbox radio bootstrap pure css</tags>
   </metadata>
