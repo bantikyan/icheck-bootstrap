@@ -32,7 +32,7 @@ Several quick start options are available:
 #### checkbox example
 
 ```
-<div class="checkbox icheck-primary">
+<div class="icheck-primary">
     <input type="checkbox" id="someCheckboxId" />
     <label for="someCheckboxId">Click to check</label>
 </div>
@@ -41,11 +41,11 @@ Several quick start options are available:
 #### radio buttons example
 
 ```
-<div class="radio icheck-primary">
+<div class="icheck-primary">
     <input type="radio" id="someRadioId1" name="someGroupName" />
     <label for="someRadioId1">Option 1</label>
 </div>
-<div class="radio icheck-primary">
+<div class="icheck-primary">
     <input type="radio" id="someRadioId2" name="someGroupName" />
     <label for="someRadioId2">Option 2</label>
 </div>
@@ -56,7 +56,7 @@ Several quick start options are available:
 #### checkbox example
 
 ```
-<div class="checkbox icheck-primary">
+<div class="icheck-primary">
     @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
     <label for="someCheckboxId">Click to check</label>
 </div>
@@ -65,11 +65,11 @@ Several quick start options are available:
 #### radio buttons example
 
 ```
-<div class="radio icheck-primary">
+<div class="icheck-primary">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue1, new { id = "someRadioId1" }) 
     <label for="someRadioId1">Option 1</label>
 </div>
-<div class="radio icheck-primary">
+<div class="icheck-primary">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue2, new { id = "someRadioId2" })
     <label for="someRadioId2">Option 2</label>
 </div>
@@ -77,9 +77,7 @@ Several quick start options are available:
 
 ## Color schemes
 
-* [Demo](https://bantikyan.github.io/icheck-bootstrap/)
-* [Demo on codepen](http://codepen.io/bantikyan/pen/KgZwkm)
-* [Demo on jsfiddle](https://jsfiddle.net/bantikyan/jcfekw2j/2)
+* Try [Demo](https://bantikyan.github.io/icheck-bootstrap/)
 
 <b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
