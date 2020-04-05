@@ -27,6 +27,7 @@ Several quick start options are available:
 * Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
 * Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-bootstrap)
+* Use CDN [cdnjs](https://cdnjs.com/libraries/icheck-bootstrap)
 
 ## HTML syntax
 
