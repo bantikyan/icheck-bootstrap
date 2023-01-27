@@ -1,0 +1,134 @@
+/*!
+ * icheck-bootstrap v3.1.0 (https://github.com/bantikyan/icheck-bootstrap)
+ * Copyright 2018 Hovhannes Bantikyan.
+ * Licensed under MIT (https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE)
+ */
+
+[class*="icheck-"] {
+    min-height: $size;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    padding-left: 0px;
+
+    & > label {
+        padding-left: calc(#{$size} + 7px) !important;
+        min-height: $size;
+        line-height: $size;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    & > input {
+        &:first-child {
+            position: absolute !important;
+            opacity: 0;
+            margin: 0;
+
+            &:disabled {
+                cursor: default;
+
+                & + label,
+                & + input[type="hidden"] + label,
+                & + label::before,
+                & + input[type="hidden"] + label::before {
+                    pointer-events: none;
+                    cursor: default;
+                    filter: alpha(opacity=65);
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    opacity: .65;
+                }
+            }
+
+            & + label::before,
+            & + input[type="hidden"] + label::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: $size;
+                height: $size;
+                border: 1px solid #D3CFC8;
+                border-radius: 0px;
+                margin-left: calc(-#{$size} - 7px);
+            }
+
+            &:checked + label::after,
+            checked + input[type="hidden"] + label::after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: calc(#{$size} / 3);
+                height: calc(#{$size} / 2);
+                border: solid 2px #fff;
+                border-left: none;
+                border-top: none;
+                transform: translate(100%, 33%) rotate(45deg);
+                -ms-transform: translate(100%, 33%) rotate(45deg);
+            }
+
+            &:not(:checked):not(:disabled):hover {
+                & + label::before,
+                & + input[type="hidden"] + label::before {
+                    border-width: 2px;
+                }
+            }
+
+        }
+
+        &[type="radio"] {
+            &:first-child {
+                & + label::before,
+                & + input[type="hidden"] + label::before {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+.icheck-inline {
+    display: inline-block;
+
+    & + .icheck-inline {
+        margin-left: .75rem;
+        margin-top: 6px;
+    }
+}
+
+@each $k, $v in $colors {
+    .icheck-#{$k} > input:first-child {
+        &:not(:checked):not(:disabled):hover {
+            & + label::before,
+            & + input[type="hidden"] + label::before {
+                border-color: nth($v, 1);
+            }
+        }
+
+        &:checked {
+            & + label::before,
+            & + input[type="hidden"] + label::before {
+                @if length($v) == 1 {
+                    background-color: nth($v, 1);
+                }
+                @if length($v) > 1 {
+                    background-color: nth($v, 2);
+                }
+                border-color: nth($v, 1);
+            }
+
+            @if length($v) == 3 {
+                & + label::after,
+                & + input[type="hidden"] + label::after {
+                    border-bottom-color: nth($v, 3);
+                    border-right-color: nth($v, 3);
+                }
+            }
+        }
+    }
+}

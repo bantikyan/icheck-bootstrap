@@ -1,0 +1,9 @@
+// border-color / background-color / checkmark color
+$colors: (
+    "default": #adadad #e6e6e6 #333,
+    "primary": var(--bs-primary, var(--primary, #2e6da4)) var(--bs-primary, var(--primary, #337ab7)),
+    "success": var(--bs-success, var(--success, #4cae4c)) var(--bs-success, var(--success, #5cb85c)),
+    "info": var(--bs-info, var(--info, #46b8da)) var(--bs-info, var(--info, #5bc0de)),
+    "warning": var(--bs-warning, var(--warning, #eea236)) var(--bs-warning, var(--warning, #f0ad4e)),
+    "danger": var(--bs-danger, var(--danger, #d43f3a)) var(--bs-danger, var(--danger, #d9534f)),
+);

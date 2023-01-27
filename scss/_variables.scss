@@ -1,0 +1,11 @@
+// radio / checkbox size
+$size: 22px !default;
+
+// Default Bootstrap colors
+@import "colors";
+
+// FlatUI colors
+@import "colors_flatui";
+
+$custom-colors: () !default;
+$colors: map-merge($colors, $custom-colors);
