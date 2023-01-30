@@ -1,0 +1,25 @@
+// border-color / background-color / checkmark color
+$flatui-colors: (
+    "alizarin": #e74c3c,
+    "amethyst": #9b59b6,
+    "asbestos": #7f8c8d,
+    "belizehole": #2980b9,
+    "carrot": #e67e22,
+    "clouds": #ecf0f1 #ecf0f1 #95a5a6,
+    "concrete": #95a5a6,
+    "emerland": #2ecc71,
+    "greensea": #16a085,
+    "midnightblue": #2c3e50,
+    "nephritis": #27ae60,
+    "orange": #f39c12,
+    "peterriver": #3498db,
+    "pomegranate": #c0392b,
+    "pumpkin": #d35400,
+    "silver": #bdc3c7,
+    "sunflower": #f1c40f,
+    "turquoise": #1abc9c,
+    "wetasphalt": #34495e,
+    "wisteria": #8e44ad,
+);
+
+$colors: map-merge($colors, $flatui-colors);

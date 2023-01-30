@@ -144,6 +144,44 @@ You can use following classes for Twitter Bootstrap color scheme:
 <code>.icheck-silver</code><br/>
 <code>.icheck-asbestos</code><br/>
 
+## Building
+
+To build this CSS from SCSS files, use the following script :
+
+```
+npm run build
+```
+
+## Customization
+
+By using the SCSS files you can easily customize your icheck size and colors.
+
+To customize the easiest way is to load icheck as a module by using the `@use` rule. 
+
+```sass
+@use "./node_modules/icheck-bootstrap/scss/icheck-bootstrap" with (
+    $size: 27px,
+    $custom-colors: (
+      'success': #FFFF00 #FF0000 #00FF00,
+      'mycolor': #FF0000,
+    )
+)
+```
+
+As you can see in this example, size of checkboxes and radio buttons will be 27px (instead of the default 22px). `success` color is overwritten and `mycolor` is added, you can now use "icheck-mycolor" as a class.
+
+### Colors
+
+If you watch the example above, colors are defined with one, two or three values separated by a space and in this order
+
+* border color
+* background color
+* checkmark color
+
+If only one value is set, this value is used for border and background color, the checkmark will use the default color.
+
+If only two values are set, the checkmark will use the default color. 
+
 ## License
 
 icheck-bootstrap released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE). Feel free to use it in personal and commercial projects.

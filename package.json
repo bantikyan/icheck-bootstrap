@@ -2,6 +2,14 @@
   "name": "icheck-bootstrap",
   "version": "3.0.1",
   "description": "Pure css checkboxes and radio buttons for Twitter Bootstrap.",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "build": "npm run build-min && npm run build-css",
+    "build-min": "sass --no-source-map --style=compressed scss/icheck-bootstrap.scss:./icheck-bootstrap.min.css",
+    "build-css": "sass --no-source-map --style=expanded scss/icheck-bootstrap.scss:./icheck-bootstrap.css"
+  },
   "main": "icheck-bootstrap.css",
   "files": [
     "icheck-bootstrap.css",
